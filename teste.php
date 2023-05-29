@@ -1,13 +1,9 @@
 <?php
 
+$lista = [10,9,8,7,5,4,3];
+sort($lista);
 
-// Componentes de um computador
-$lista = ['Placa-mãe', 'Memória ram', 'SSD', 'HD', 'Monitor'];
+print_r($lista);
 
-foreach ($lista as $li) {
- echo $li."<br>";
-}
-
-
-
+var_dump($lista);
 
