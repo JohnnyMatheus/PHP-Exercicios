@@ -7,3 +7,10 @@ print_r($lista);
 
 var_dump($lista);
 
+echo '<hr>';
+
+
+
+ $techs = ['JavaScript', 'React', 'NodeJS', 'PHP'];
+ $quantidade = count($techs)
+ ; echo $quantidade;

@@ -43,4 +43,17 @@ echo '<hr>';
 //Numeros aleatórios
 
 $aleatorio = rand(0,9);
-echo $aleatorio;
+echo 'Numero aléatório: '.$aleatorio;
+
+echo '<hr>';
+
+/////////////////////////////////////////////////////
+
+// Encontrar o maior número da lista
+$lista = [1,2,3,4,5];
+echo ('O maior numero da lista é: '.max($lista));
+echo '<br>';
+//encontrr o menor numero da lista
+echo ('O menor nímero da lista é: '.min($lista));
+
+/////////////////////////////////////////////////////
