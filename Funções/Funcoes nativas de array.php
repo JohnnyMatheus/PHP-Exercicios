@@ -74,7 +74,35 @@ echo '<hr>';
 $numeros = [10,20,24,91,18]; 
 $posição - array_search(91,$numeros);
 
+echo '<hr>';
+echo '<h1>ordenar array em ordem crescente</h1>';
+$numeros = [10,20,24,91,18];
+sort($numeros); //ordenar array
+print_r($numeros);
 
+echo '<hr>';
+echo '<h1>Ordenar array em ordem decrescente</h1>';
+$numeros = [10,20,24,91,18];
+rsort($numeros); //ordenar array
+print_r($numeros);
+
+echo '<hr>';
+
+echo '<h1>Ordenar em ordem crescente associando</h1>';
+$numeros = [10,20,24,91,18];
+arsort($numeros); //ordenar array
+print_r($numeros);
+
+
+echo '<hr>';
+
+echo '<h1>implode pega o array e transforma em uma string</h1>';
+$nomes = ['johnny','Matheus','n','m'];
+$nome = implode('#',$nomes);
+echo $nome;
+
+
+echo '<hr>';
 
 
 echo '<h1></h1>';
@@ -82,11 +110,19 @@ echo '<h1></h1>';
 echo '<h1></h1>';
 echo '<h1></h1>';
 echo '<h1></h1>';
+echo '<h1></h1>';
+echo '<h1></h1>';
+echo '<h1></h1>';
+echo '<h1></h1>';
 
 
 echo '<hr>';
 echo '<hr>';
 echo '<hr>';
+
 echo '<hr>';
 echo '<hr>';
 echo '<hr>';
+echo '<hr>';
+echo '<hr>';
+
