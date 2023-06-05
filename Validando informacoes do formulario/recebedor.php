@@ -40,6 +40,16 @@ A sanitização garante que os dados recebidos sejam tratados como dados seguros
  Em resumo, a sanitização trata de limpar os dados, removendo qualquer 
  coisa que possa ser prejudicial ou causar problemas de segurança.
 
+ Validate
+ 
+A validação, por outro lado, é o processo de verificar se os dados recebidos estão corretos e
+ atendem a determinados critérios esperados.
+A validação é usada para garantir que os dados estejam no formato correto, tenham um comprimento adequado,
+satisfaçam restrições específicas (como números dentro de um determinado intervalo) e assim por diante.
+A validação ajuda a garantir a integridade e a consistência dos dados.
+Por exemplo, se você recebe um número de telefone de um formulário, pode usar 
+funções de validação para verificar se o número de telefone está no formato correto e contém apenas dígitos.
+
 
 */
 
