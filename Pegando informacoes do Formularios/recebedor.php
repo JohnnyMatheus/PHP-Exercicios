@@ -10,8 +10,5 @@ if($nome && $senha){
     echo 'Senha: '.$senha;
 }else {
     header("Location: index.php");
+    exit;
 }
-
-
-
-
