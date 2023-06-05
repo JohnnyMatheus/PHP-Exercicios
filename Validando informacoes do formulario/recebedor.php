@@ -4,6 +4,16 @@ $nome = filter_input(INPUT_POST,'nome',FILTER_SANITIZE_SPECIAL_CHARS);//NÃO ROD
 $email = filter_input(INPUT_POST,'email',FILTER_VALIDATE_EMAIL);
 $idade = filter_input(INPUT_POST,'idade',FILTER_SANITIZE_NUMBER_INT);
 
+if($nome && $email && $idade){
+    echo 'Nome: '.$nome.'</br>';
+    echo 'E-mail: '.$email.'</br>';
+    echo 'Idade: '.$idade.'</br>';
+
+}else{
+    header("Location: index.php");
+    exit;
+}
+
 //EXEMPLOS VALIDATE
 
 //FILTER_VALIDADE_EMAIL ->VERIFICA SE É UM E-MAIL
@@ -35,13 +45,3 @@ A sanitização garante que os dados recebidos sejam tratados como dados seguros
 
 
 
-
-if($nome && $email && $idade){
-    echo 'Nome: '.$nome.'</br>';
-    echo 'E-mail: '.$email.'</br>';
-    echo 'Idade: '.$idade.'</br>';
-
-}else{
-    header("Location: index.php");
-    exit;
-}
